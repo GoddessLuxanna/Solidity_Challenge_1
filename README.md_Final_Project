@@ -2,7 +2,7 @@
 A contract that mints and burns tokens and checks the current value of the balance of the account (address).
 
 # Description
-This program mins or creates new tokens to the address and you can burn the tokens that was created to the address on the ETH platform.
+This program mints or creates new tokens to the address and then you can burn the tokens that was created or added to the address.
 There is also a condition within the program that prevents the users to burn more than the amount of the current balances.
 
 # Steps
