@@ -1,0 +1,46 @@
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.7;
+
+// This program will set or record the status, room number, ID number, and the name of the student.
+
+contract MyContract {
+    // These are the variables:
+    uint256 private iD;
+    bool private studentStatus;
+    address private classRoomNumber;
+    string private studentName;
+
+    // These are the SET functions:
+    function setID(uint256 id_number) public {
+        iD = id_number;
+    }
+
+    function setBolean(bool student_status) public {
+        studentStatus = student_status;
+        
+    }  
+    function setClassroomNumber(address classroom_number) public {
+        classRoomNumber = classroom_number;
+    }
+
+    function setStudentName(string memory student_name) public {
+        studentName = student_name;
+    }
+
+    // These are the GET functions:
+    function getID() public view returns (uint256) {
+        return iD;
+    }
+
+    function getBoolean() public view returns (bool) {
+        return studentStatus;
+    }
+
+    function getClassRoomNumber() public view returns (address) {
+        return classRoomNumber;
+    }
+
+    function getStudentName() public view returns (string memory) {
+        return studentName;
+    }
+}
