@@ -1,0 +1,19 @@
+# Final Project of Solidity Beginners Course
+A contract that mints and burns tokens and checks the current value of the balance of the account (address).
+
+# Description
+This program mins or creates new tokens to the address and you can burn the tokens that was created to the address on the ETH platform.
+There is also a condition within the program that prevents the users to burn more than the amount of the current balances.
+
+# Steps
+1. Simply use the given code.
+2. Compile in on Remix - Ethereum IDE
+3. Deploy it
+4. Use the address on the account.
+5. Mint new tokens.
+6. Burn the tokens.
+7. Check if the function of preventing burning more than what the account have is working.
+8. Fin
+
+# Written by
+- Joshua C. Torayno of BSIT 3.1 from the National Teachers College
